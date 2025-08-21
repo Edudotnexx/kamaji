@@ -1,7 +1,7 @@
 name: crawl
 on:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '15 * * * *'
 jobs:
   crawltel:
     runs-on: ubuntu-latest
